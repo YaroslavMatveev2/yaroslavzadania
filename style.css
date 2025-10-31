@@ -155,6 +155,53 @@ details{
   text-decoration: underline;
 }
 
+.header-layout{
+    width: 100%;
+    height: 100px;
+    background: #1cec50;
+    text-align: center;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+
+.main-layout{
+    display: flex;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.aside-layout{
+    background: #e2d02b;
+    flex: 1;
+    border-right: 1px solid #000;
+}
+
+.blocks-layout{
+    display: block;
+    flex: 2;
+}
+
+.blocks-layout>div{
+    height: 50%;
+}
+
+.layout-first{
+    background: #da2d2d;
+    border-bottom: 1px solid #000;
+}
+
+.layout-second{
+    background: #F44336;
+}
+
+.footer-layout{
+    height: 100px;
+    text-align: center;
+    background-color: #6d50ef;
+    border: 1px solid #000;
+    border-top: none;
+}
+
 @media (max-width:500px) {
     .media-text{
         color: #C41230;
