@@ -202,6 +202,29 @@ details{
     border-top: none;
 }
 
+
+@keyframes myAnimation {
+  0%   {color: red;}
+  25%  {color: rgb(255, 94, 1);}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+.animated-txt{
+    cursor: pointer;
+    transition: .5s ease-in-out all;
+    width: 220px;
+    background-color: white;
+    text-align: center;
+    margin-top:20px;
+}
+
+.animated-txt:hover{
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 @media (max-width:500px) {
     .media-text{
         color: #C41230;
