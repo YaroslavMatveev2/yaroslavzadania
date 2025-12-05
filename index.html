@@ -80,7 +80,22 @@
             <h1 style="margin-top:20px; transform: rotate(0.5turn); display: flex; justify-content: right;">ALA MA KOTA</h1>
             <h1 class="animated-txt">HoVeR mE</h1>
         </details>
+
+        <details name="faq">
+            <summary>Js latarka<img src="imgs/down-arrow.png" height="30px" width="30px" alt=""></summary>
+                <div class="lamp">
+                    <button onclick="document.querySelector('.lamp-img').src='/imgs/light_on.gif'">
+                        On
+                    </button>
+
+                    <img class="lamp-img" src="/imgs/light.gif" alt="">
+                    <button onclick="document.querySelector('.lamp-img').src='/imgs/light.gif'">
+                        Off
+                    </button>
+                </div>
+        </details>
     </div>
 
+    <script src="/js/app.js"></script>
 </body>
 </html>
